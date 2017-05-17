@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\_workspaceC\UnityDemos\UnityAndroidExchange\UToAAndroid\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0046e54936ffde4ab0ea5e611d4f779cf60a469">
+        <dex dex="C:\_workspaceC\UnityDemos\UnityAndroidExchange\UToAAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4523695089c0d4329cbf1e256a84ea168d327d6d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\_workspaceC\UnityDemos\UnityAndroidExchange\UToAAndroid\app\libs\unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="70ac843f43425f03e927595b2afe09b1877b0692">
+        <dex dex="C:\_workspaceC\UnityDemos\UnityAndroidExchange\UToAAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\2\unity-classes_2ceeeb81ebe6cc45989ceb73dc1464dee78c05d4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\_workspaceC\UnityDemos\UnityAndroidExchange\UToAAndroid\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e9f684cec99b79d35630e76d5d47f4d13e78274">
+        <dex dex="C:\_workspaceC\UnityDemos\UnityAndroidExchange\UToAAndroid\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_63a8701c1d07980b5bf989ae8e1c8701064131a5\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UToAAndroidNative.iml" filepath="$PROJECT_DIR$/UToAAndroidNative.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uToAUnity/uToAUnity.iml" filepath="$PROJECT_DIR$/uToAUnity/uToAUnity.iml" />
+    </modules>
+  </component>
+</project>
