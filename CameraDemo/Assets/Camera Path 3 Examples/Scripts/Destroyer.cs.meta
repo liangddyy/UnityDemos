@@ -1,0 +1,48 @@
+fileFormatVersion: 2
+guid: 00f5e5a47c1508049b9a7edff5307220
+labels:
+- Animation
+- Animator
+- Animate
+- Anim
+- Animating
+- Cutscene
+- Cinematic
+- Loop
+- FieldofView
+- Hermite
+- Bezier
+- Spline
+- Path
+- Director
+- Cam
+- Camera
+- GodofWar
+- Rails
+- Shooter
+- OnRails
+- FlyOver
+- FlyBy
+- FlyThrough
+- Architectural
+- Architecture
+- Animatic
+- Movie
+- Bandicoot
+- Perspective
+- Orthographic
+- Platformer
+- TwoDimentional
+- Two
+- 2DCamera
+- 2DAnimation
+- 2DAnimator
+- 2D
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

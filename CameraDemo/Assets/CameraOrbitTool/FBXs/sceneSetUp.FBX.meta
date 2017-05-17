@@ -1,0 +1,165 @@
+fileFormatVersion: 2
+guid: 16df22b09b8eccc45860737d0aa52b3f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: heightMarking004
+    100004: bottomLimit
+    100006: heightMarking003
+    100008: topLimit
+    100010: heightMarking008
+    100012: verticalAxis
+    100014: heightMarking007
+    100016: heightMarking006
+    100018: heightMarking005
+    100024: verticalPivot
+    100026: horizontalPivot
+    100028: heightMarking012
+    100030: heightMarking011
+    100032: heightMarking010
+    100034: heightMarking009
+    100036: heightMarking2
+    100038: heightMarking1
+    400000: //RootNode
+    400002: heightMarking004
+    400004: bottomLimit
+    400006: heightMarking003
+    400008: topLimit
+    400010: heightMarking008
+    400012: verticalAxis
+    400014: heightMarking007
+    400016: heightMarking006
+    400018: heightMarking005
+    400024: verticalPivot
+    400026: horizontalPivot
+    400028: heightMarking012
+    400030: heightMarking011
+    400032: heightMarking010
+    400034: heightMarking009
+    400036: heightMarking2
+    400038: heightMarking1
+    2300000: heightMarking004
+    2300002: bottomLimit
+    2300004: heightMarking003
+    2300006: topLimit
+    2300008: heightMarking008
+    2300010: verticalAxis
+    2300012: heightMarking007
+    2300014: heightMarking006
+    2300016: heightMarking005
+    2300022: verticalPivot
+    2300024: horizontalPivot
+    2300026: heightMarking012
+    2300028: heightMarking011
+    2300030: heightMarking010
+    2300032: heightMarking009
+    2300034: heightMarking2
+    2300036: heightMarking1
+    3300000: heightMarking004
+    3300002: bottomLimit
+    3300004: heightMarking003
+    3300006: topLimit
+    3300008: heightMarking008
+    3300010: verticalAxis
+    3300012: heightMarking007
+    3300014: heightMarking006
+    3300016: heightMarking005
+    3300022: verticalPivot
+    3300024: horizontalPivot
+    3300026: heightMarking012
+    3300028: heightMarking011
+    3300030: heightMarking010
+    3300032: heightMarking009
+    3300034: heightMarking2
+    3300036: heightMarking1
+    4300000: horizontalPivot
+    4300002: verticalPivot
+    4300004: dummy_camera
+    4300006: lineOfSight
+    4300008: helpText002
+    4300010: helpText01
+    4300012: helpText003
+    4300014: verticalAxis
+    4300016: helpText004
+    4300018: topLimit
+    4300020: helpText005
+    4300022: bottomLimit
+    4300024: helpText006
+    4300026: heightMarking1
+    4300028: heightMarking2
+    4300030: heightMarking003
+    4300032: heightMarking004
+    4300034: heightMarking005
+    4300036: heightMarking006
+    4300038: heightMarking007
+    4300040: heightMarking008
+    4300042: heightMarking009
+    4300044: heightMarking010
+    4300046: heightMarking011
+    4300048: heightMarking012
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,45 @@
+fileFormatVersion: 2
+guid: 59027fb62f4ec427891b09546c07f7fa
+labels:
+- Animation
+- Animator
+- Animate
+- Anim
+- Animating
+- Cutscene
+- Cinematic
+- Loop
+- FieldofView
+- Hermite
+- Bezier
+- Spline
+- Path
+- Director
+- Cam
+- Camera
+- GodofWar
+- Rails
+- Shooter
+- OnRails
+- FlyOver
+- FlyBy
+- FlyThrough
+- Architectural
+- Architecture
+- Animatic
+- Movie
+- Bandicoot
+- Perspective
+- Orthographic
+- Platformer
+- TwoDimentional
+- Two
+- 2DCamera
+- 2DAnimation
+- 2DAnimator
+- 2D
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
