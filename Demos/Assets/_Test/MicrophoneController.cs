@@ -3,6 +3,8 @@ using System.Collections;
 using System;
 using System.IO;
 using System.Collections.Generic;
+using NoobFramework.Extension;
+
 /// <summary>
 /// 录音
 /// </summary>

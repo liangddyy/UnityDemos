@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-using LDFW.Math;
-
 public class BezierDemo : MonoBehaviour {
-
-    private BezierCurve curve;
+    private LDFW.Math.BezierCurve curve;
     public AnimationCurve curve2;
 
 	void Start () {
-        curve = new BezierCurve ();
+        curve = new LDFW.Math.BezierCurve ();
 
         curve.AddPoint (new Vector3 (0, 0, 0));
         curve.AddPoint (new Vector3 (1, 1, 1));

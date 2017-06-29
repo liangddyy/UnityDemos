@@ -13,6 +13,7 @@ public class PerlinTest : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        
         Renderer reder = GetComponent<Renderer>();
 
         // M = reder.material;

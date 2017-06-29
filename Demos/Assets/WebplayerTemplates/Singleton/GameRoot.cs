@@ -30,11 +30,6 @@ namespace Liangddyy.Util.SingleTonManage
         private IEnumerator InitSingletons()
         {
             yield return null;
-            // Init Singletons
-
-            // 示例
-            //        AddSingleton<MessageDispatcher>();
-            //        AddSingleton<GlobalUser>();
         }
 
         /// <summary>
