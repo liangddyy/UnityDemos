@@ -109,9 +109,6 @@
     <Reference Include="System.Data">
       <HintPath>Assets\Plugins\System.Data.dll</HintPath>
     </Reference>
-    <Reference Include="ICSharpCode.SharpZipLib">
-      <HintPath>Assets\NoobFrameWork\_Package\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Demos.CSharp.csproj">
@@ -124,69 +121,12 @@
     <Compile Include="Assets\Editor\UtilityEditor.cs" />
     <Compile Include="Assets\NoobFrameWork\BezierCurve\Editor\BezierCurveEditor.cs" />
     <Compile Include="Assets\NoobFrameWork\BezierCurve\Editor\BezierPointEditor.cs" />
+    <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Editor\BaseComponentInspector.cs" />
+    <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Editor\DebuggerComponentInspector.cs" />
+    <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Editor\GameFrameworkInspector.cs" />
+    <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Editor\Type.cs" />
     <Compile Include="Assets\NoobFrameWork\Editor\SearchForComponents.cs" />
     <Compile Include="Assets\NoobFrameWork\PoolManage\Editor\ObjectsPoolEditor.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleAnalyzer\AssetBundleAnalyzer.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleAnalyzer\AssetBundleAnalyzerController.Stamp.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleAnalyzer\AssetBundleAnalyzerController.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleAnalyzer\AssetsOrder.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleAnalyzer\DependencyData.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleAnalyzer\ScatteredAssetsOrder.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\AssetBundleBuilder.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\AssetBundleBuilderController.AssetBundleCode.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\AssetBundleBuilderController.AssetBundleData.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\AssetBundleBuilderController.AssetData.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\AssetBundleBuilderController.BuildReport.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\AssetBundleBuilderController.VersionListData.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\AssetBundleBuilderController.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\BuildAssetBundle.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleBuilder\IBuildEventHandler.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleCollection\Asset.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleCollection\AssetBundle.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleCollection\AssetBundleCollection.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleCollection\AssetBundleLoadType.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleCollection\AssetBundleType.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleEditor\AssetBundleEditor.AssetBundleFolder.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleEditor\AssetBundleEditor.AssetBundleItem.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleEditor\AssetBundleEditor.MenuState.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleEditor\AssetBundleEditor.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleEditor\AssetBundleEditorController.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleEditor\AssetSorterType.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleEditor\SourceAsset.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\AssetBundleEditor\SourceFolder.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\BaseComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\DataNodeComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\DataTableComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\DebuggerComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\DownloadComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\EntityComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\EventComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\FsmComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\GameFrameworkInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\LocalizationComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\NetworkComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\ObjectPoolComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\ProcedureComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\ResourceComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\SceneComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\SettingComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\SoundComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\UIComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Inspector\WebRequestComponentInspector.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Misc\BuildSettings.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Misc\ContextMenu.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Misc\Help.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Misc\HelperInfo.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Misc\LogRedirection.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Misc\OpenFolder.cs" />
-    <Compile Include="Assets\NoobFrameWork\_Package\Editor\Misc\Type.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\NoobFrameWork\_Package\Configs\AssetBundleBuilder.xml" />
-    <None Include="Assets\NoobFrameWork\_Package\Configs\AssetBundleCollection.xml" />
-    <None Include="Assets\NoobFrameWork\_Package\Configs\AssetBundleEditor.xml" />
-    <None Include="Assets\NoobFrameWork\_Package\Configs\BuildSettings.xml" />
-    <None Include="Assets\NoobFrameWork\_Package\Configs\link.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
