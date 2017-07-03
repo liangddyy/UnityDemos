@@ -101,13 +101,13 @@
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data">
-      <HintPath>Assets\Plugins\Mono.Data.dll</HintPath>
+      <HintPath>Assets\NoobFrameWork\Plugins\Mono.Data.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
-      <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
+      <HintPath>Assets\NoobFrameWork\Plugins\Mono.Data.Sqlite.dll</HintPath>
     </Reference>
     <Reference Include="System.Data">
-      <HintPath>Assets\Plugins\System.Data.dll</HintPath>
+      <HintPath>Assets\NoobFrameWork\Plugins\System.Data.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -118,14 +118,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\CustomFontMaker.cs" />
-    <Compile Include="Assets\Editor\UtilityEditor.cs" />
     <Compile Include="Assets\NoobFrameWork\BezierCurve\Editor\BezierCurveEditor.cs" />
     <Compile Include="Assets\NoobFrameWork\BezierCurve\Editor\BezierPointEditor.cs" />
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Editor\BaseComponentInspector.cs" />
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Editor\DebuggerComponentInspector.cs" />
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Editor\GameFrameworkInspector.cs" />
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Editor\Type.cs" />
-    <Compile Include="Assets\NoobFrameWork\Editor\SearchForComponents.cs" />
+    <Compile Include="Assets\NoobFrameWork\Editor\AssetBundle\ExportAssetBundles.cs" />
+    <Compile Include="Assets\NoobFrameWork\Editor\ResourcesFind\SearchForComponents.cs" />
+    <Compile Include="Assets\NoobFrameWork\Editor\UtilityEditor.cs" />
     <Compile Include="Assets\NoobFrameWork\PoolManage\Editor\ObjectsPoolEditor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

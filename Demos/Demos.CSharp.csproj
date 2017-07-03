@@ -68,13 +68,13 @@
       <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data">
-      <HintPath>Assets\Plugins\Mono.Data.dll</HintPath>
+      <HintPath>Assets\NoobFrameWork\Plugins\Mono.Data.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Data.Sqlite">
-      <HintPath>Assets\Plugins\Mono.Data.Sqlite.dll</HintPath>
+      <HintPath>Assets\NoobFrameWork\Plugins\Mono.Data.Sqlite.dll</HintPath>
     </Reference>
     <Reference Include="System.Data">
-      <HintPath>Assets\Plugins\System.Data.dll</HintPath>
+      <HintPath>Assets\NoobFrameWork\Plugins\System.Data.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -144,20 +144,121 @@
     <Compile Include="Assets\NoobFrameWork\Util\FileUtility.cs" />
     <Compile Include="Assets\NoobFrameWork\Util\Json.IJsonHelper.cs" />
     <Compile Include="Assets\NoobFrameWork\Util\Profiler.IProfilerHelper.cs" />
-    <Compile Include="Assets\NoobFrameWork\Util\XmlUtility.cs" />
+    <Compile Include="Assets\NoobFrameWork\Util\ResourcesHook.cs" />
+    <Compile Include="Assets\NoobFrameWork\Util\ScriptingDefineSymbolUtil.cs" />
     <Compile Include="Assets\NoobFrameWork\Util\Zip.IZipHelper.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\RockingBarUGUI\Scripts\RoackingBar.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\RockingBarUGUI\Scripts\RoackingControl2d.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\RockingBarUGUI\Scripts\RoackingControl3d.cs" />
     <Compile Include="Assets\NoobFrameWork\_Demos\ScreenShot\ScreenShot.cs" />
-    <Compile Include="Assets\RockingBarUGUI\Scripts\RoackingBar.cs" />
-    <Compile Include="Assets\RockingBarUGUI\Scripts\RoackingControl2d.cs" />
-    <Compile Include="Assets\RockingBarUGUI\Scripts\RoackingControl3d.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\ScreenShot\Test\ScreenShot.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\ScreenShot\Test\Test.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\Sqlite\Column.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\Sqlite\DbUtil.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\Sqlite\SQLiteHelper.cs" />
+    <Compile Include="Assets\NoobFrameWork\_Demos\Sqlite\Test\SQLiteDemo.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Chain of Responsibility Pattern\Example1\ChainOfResponsibilityExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Chain of Responsibility Pattern\Example2\ChainOfResponsibilityExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Chain of Responsibility Pattern\Structure\ChainOfResponsibilityStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example1\CommandExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\DeviceButton.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\ICommand.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\IElectronicDevice.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\Radio.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\TVRemove.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\Television.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\TestCommandPattern.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\TurnItAllOff.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\TurnTVOff.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\TurnTVOn.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\TurnVolumeDown.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example2\TurnVolumeUp.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example3\Command.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example3\InputHandler.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example3\MoveCommand.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Example3\MoveCommandReceiver.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Command Pattern\Structure\CommandStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Interpreter Pattern\Example1\InterpreterExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Interpreter Pattern\Example2\InterpreterExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Interpreter Pattern\Structure\InterpreterStructrue.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Iterator Pattern\Example1\IteratorExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Iterator Pattern\Example2\IteratorExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Iterator Pattern\Structure\IteratorStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Mediator Pattern\Example1\MediatorExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Mediator Pattern\Example2\MediatorExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Mediator Pattern\Structure\MediatorStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Memento Pattern\Example1\MementoExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Memento Pattern\Example2\MementoExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Memento Pattern\Structure\MementoStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Strategy Pattern\Example2\BadCodeExample.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Strategy Pattern\Example2\StrategyPatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Strategy Pattern\Exmaple1\StrategyPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Strategy Pattern\Structure\StrategyStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Template Method Pattern\Exmaple1\TemplateMethodPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Template Method Pattern\Structure\TemplateMethodStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Visitor Pattern\Exmaple1\VisitorPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Visitor Pattern\Exmaple2\VisitorPatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\Visitor Pattern\Structure\VisitorStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_Observer Pattern\Example1\ObserverExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_Observer Pattern\Structure\ObserverStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple1\StateExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple2\StateExmaple2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple3\ATMMachine.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple3\ATMState.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple3\HasCard.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple3\HasPin.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple3\NoCard.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple3\NoCash.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple3\TestATMMachine.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple4\DrivingState.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple4\DuckingState.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple4\Heroine.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple4\HeroineBaseState.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple4\JumpingState.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple4\StandingState.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Exmaple4\TestHeroine.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Behavioral Patterns\_State Pattern\Structure\StateStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Abstract Factory Pattern\Example1\AbstractFactoryPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Abstract Factory Pattern\Example2\AbstractFactoryPatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Abstract Factory Pattern\Structure\AbstractFactoryStructrue.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Builder Pattern\Example1\BuilderPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Builder Pattern\Example2\BuilderPatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Builder Pattern\Structure\BuilderStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Factory Method Pattern\Example1\FactoryMethodPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Factory Method Pattern\Example2\FactoryMethodPatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Factory Method Pattern\Structure\FactoryMethodStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Prototype Pattern\Example1\PrototypePatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Prototype Pattern\Example2\PrototypePatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Prototype Pattern\Structure\PrototypeStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Singleton Pattern\Example1\SingletonPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Creational Patterns\Singleton Pattern\Structure\SingletonStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Game Programming Patterns\SubclassSandbox Pattern\example\FlashSpeed.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Game Programming Patterns\SubclassSandbox Pattern\example\GroundDive.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Game Programming Patterns\SubclassSandbox Pattern\example\SkyLaunch.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Game Programming Patterns\SubclassSandbox Pattern\example\SuperPower.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Game Programming Patterns\SubclassSandbox Pattern\example\TestSubclassSandbox.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Adapter Pattern\Exmaple1\AdapterPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Adapter Pattern\Exmaple2\AdapterPatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Adapter Pattern\Structure\AdapterStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Bridge Pattern\Exmaple1\BridgePatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Bridge Pattern\Exmaple2\BridgePatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Bridge Pattern\Structure\BridgeStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Composite Pattern\Exmaple1\CompositePatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Composite Pattern\Exmaple2\CompositePatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Composite Pattern\Structure\CompositeStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Decorator Pattern\Exmaple1\DecoratorPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Decorator Pattern\Exmaple2\DecoratorPatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Decorator Pattern\Structure\DecoratorStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Facade Pattern\Exmaple1\FacadePatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Facade Pattern\Exmaple2\FacadePatternExample2.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Facade Pattern\Structure\FacadeStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Flyweight Pattern\Exmaple1\FlyweightPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\Flyweight Pattern\Structure\FlyweightStructure.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\_Proxy Pattern\Exmaple1\ProxyPatternExample1.cs" />
+    <Compile Include="Assets\NoobFrameWork\_UnityDesignPattern\Structural Patterns\_Proxy Pattern\Structure\ProxyStructure.cs" />
     <Compile Include="Assets\_Script\NavMeshDemo\MovePick.cs" />
     <Compile Include="Assets\_Script\Profiler\ProfilerSample.cs" />
-    <Compile Include="Assets\_Script\ResourcesHook.cs" />
     <Compile Include="Assets\_Script\Scriptable\ClothsDataConfig.cs" />
-    <Compile Include="Assets\_Script\Sqlite\Column.cs" />
-    <Compile Include="Assets\_Script\Sqlite\DbUtil.cs" />
-    <Compile Include="Assets\_Script\Sqlite\SQLiteDemo.cs" />
-    <Compile Include="Assets\_Script\Sqlite\Tempt\SQLiteHelper.cs" />
     <Compile Include="Assets\_Script\TransformDemo\CubeRotate.cs" />
     <Compile Include="Assets\_Test\MicrophoneController.cs" />
     <Compile Include="Assets\_Test\PerlinTest.cs" />
