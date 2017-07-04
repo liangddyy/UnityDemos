@@ -132,7 +132,7 @@
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\DebuggerComponent.TimeInformationWindow.cs" />
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\DebuggerComponent.WebPlayerInformationWindow.cs" />
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\DebuggerComponent.cs" />
-    <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Test\Test.cs" />
+    <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Example\Test.cs" />
     <Compile Include="Assets\NoobFrameWork\Extension\Singleton.cs" />
     <Compile Include="Assets\NoobFrameWork\PoolManage\Extentions.cs" />
     <Compile Include="Assets\NoobFrameWork\PoolManage\ObjectsPool.cs" />
