@@ -95,6 +95,10 @@
     <Compile Include="Assets\Lib\LDFW\Tweener\LDFWTweenUV.cs" />
     <Compile Include="Assets\Lib\LDFW\Tweener\LDFWTweenWorldPosition.cs" />
     <Compile Include="Assets\Lib\LDFW\Tweener\LDFWTweenWorldRotation.cs" />
+    <Compile Include="Assets\NoobFrameWork\AnimSystem\AnimData.cs" />
+    <Compile Include="Assets\NoobFrameWork\AnimSystem\AnimSystem.cs" />
+    <Compile Include="Assets\NoobFrameWork\AnimSystem\Example\AnimSystemTest.cs" />
+    <Compile Include="Assets\NoobFrameWork\AnimSystem\HeapObjectPool.cs" />
     <Compile Include="Assets\NoobFrameWork\Base\BaseFrameworkComponent.cs" />
     <Compile Include="Assets\NoobFrameWork\Base\GameComponentEntry.cs" />
     <Compile Include="Assets\NoobFrameWork\BezierCurve\Scripts\BezierCurve.cs" />
@@ -132,11 +136,11 @@
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\DebuggerComponent.TimeInformationWindow.cs" />
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\DebuggerComponent.WebPlayerInformationWindow.cs" />
     <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\DebuggerComponent.cs" />
-    <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Example\Test.cs" />
+    <Compile Include="Assets\NoobFrameWork\DebuggerRuntime\Example\DebuggerTest.cs" />
     <Compile Include="Assets\NoobFrameWork\Extension\Singleton.cs" />
-    <Compile Include="Assets\NoobFrameWork\PoolManage\Extentions.cs" />
-    <Compile Include="Assets\NoobFrameWork\PoolManage\ObjectsPool.cs" />
-    <Compile Include="Assets\NoobFrameWork\PoolManage\Pool.cs" />
+    <Compile Include="Assets\NoobFrameWork\PoolManager\Extentions.cs" />
+    <Compile Include="Assets\NoobFrameWork\PoolManager\ObjectsPool.cs" />
+    <Compile Include="Assets\NoobFrameWork\PoolManager\Pool.cs" />
     <Compile Include="Assets\NoobFrameWork\Util\BinaryUtility.cs" />
     <Compile Include="Assets\NoobFrameWork\Util\ComponentExtension.cs" />
     <Compile Include="Assets\NoobFrameWork\Util\Converter.cs" />

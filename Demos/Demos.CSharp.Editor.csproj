@@ -127,7 +127,7 @@
     <Compile Include="Assets\NoobFrameWork\Editor\AssetBundle\ExportAssetBundles.cs" />
     <Compile Include="Assets\NoobFrameWork\Editor\ResourcesFind\SearchForComponents.cs" />
     <Compile Include="Assets\NoobFrameWork\Editor\UtilityEditor.cs" />
-    <Compile Include="Assets\NoobFrameWork\PoolManage\Editor\ObjectsPoolEditor.cs" />
+    <Compile Include="Assets\NoobFrameWork\PoolManager\Editor\ObjectsPoolEditor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
