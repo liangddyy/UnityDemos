@@ -3,7 +3,7 @@ using System.Collections;
 using System;
 using System.IO;
 using System.Collections.Generic;
-using UFramework.Extension;
+using UFramework.Design;
 
 /// <summary>
 /// 录音
