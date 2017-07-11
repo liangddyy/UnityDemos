@@ -137,6 +137,7 @@
     <Compile Include="Assets\UFrameWork\DebuggerRuntime\DebuggerComponent.cs" />
     <Compile Include="Assets\UFrameWork\DebuggerRuntime\_Example\DebuggerTest.cs" />
     <Compile Include="Assets\UFrameWork\Extension\GameObjectExtention.cs" />
+    <Compile Include="Assets\UFrameWork\Math\CatmullRomSpline.cs" />
     <Compile Include="Assets\UFrameWork\PoolManager\Extentions.cs" />
     <Compile Include="Assets\UFrameWork\PoolManager\ObjectsPool.cs" />
     <Compile Include="Assets\UFrameWork\PoolManager\Pool.cs" />

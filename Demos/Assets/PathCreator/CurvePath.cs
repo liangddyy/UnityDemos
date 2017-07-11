@@ -36,23 +36,45 @@ namespace Babybus.PathCreator
 
         public Vector3 GetPosition(float percent)
         {
-            
+
             float step = 1.0f / PathCount;
             for (int i = 0; i < PathCount; i++)
             {
-                Debug.Log(i + isBezier.Count);
-
+//                Debug.Log(i + isBezier.Count);
                 if (percent >= i * step && percent <= (i + 1) * step)
                 {
                     if (isBezier[i])
-                        return MathUtil.CalculateBezierPoint(points[i], startControlPoints[i] - points[i],
-                            endControlPoints[i] - points[i + 1], points[i + 1], (percent - step * i) * PathCount); // 贝塞尔曲线
+                        return
+//                            MathUtil.CalculateBezierPoint(points[GetIndex(i)],
+//                                MathUtil.GetLineRake(0, points[GetIndex(i + 1)], points[GetIndex(i - 1)]),
+//                                MathUtil.GetLineRake(0, points[GetIndex(i + 2)], points[GetIndex(i)]),
+//                                points[GetIndex(i + 1)], (percent - step * i) * PathCount); // 贝塞尔曲线
+                    MathUtil.GetPoint(points[GetIndex(i-1)],points[GetIndex(i)], points[GetIndex(i - 1)],
+                                points[GetIndex(i + 2)], (percent - step * i) * PathCount); // 贝塞尔曲线
+//                        return MathUtil.CalculateBezierPoint(points[i], startControlPoints[i] - points[i],endControlPoints[i] - points[i + 1], points[i + 1], (percent - step * i) * PathCount); // 贝塞尔曲线
                     else
                         return Vector3.Lerp(points[i], points[i + 1], (percent - step * i) * PathCount); // 线性移动
                 }
             }
 
             return Vector3.zero;
+        }
+    
+
+    private int GetIndex(int i)
+        {
+            if (i < 0)
+            {
+                return (points.Count - 1);
+            }
+            else if (i >= points.Count)
+            {
+                return 0;
+            }
+            else
+            {
+                return i;
+            }
         }
 
         public void InsertPoint(int index)
