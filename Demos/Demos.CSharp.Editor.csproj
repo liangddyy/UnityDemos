@@ -109,6 +109,21 @@
     <Reference Include="System.Data">
       <HintPath>Assets\UFrameWork\Plugins\System.Data.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\SWS\Extensions\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween43">
+      <HintPath>Assets\SWS\Extensions\DOTween\DOTween43.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween46">
+      <HintPath>Assets\SWS\Extensions\DOTween\DOTween46.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween50">
+      <HintPath>Assets\SWS\Extensions\DOTween\DOTween50.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\SWS\Extensions\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Demos.CSharp.csproj">
@@ -118,6 +133,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\CustomFontMaker.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\AboutSWSEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\BezierPathEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\CreateWPManager.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\PathEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\ReviewWindowEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\WaypointEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\moveEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\navMoveEditor.cs" />
+    <Compile Include="Assets\SWS\Scripts\Editor\splineMoveEditor.cs" />
     <Compile Include="Assets\UFrameWork\BezierCurve\Editor\BezierCurveEditor.cs" />
     <Compile Include="Assets\UFrameWork\BezierCurve\Editor\BezierPointEditor.cs" />
     <Compile Include="Assets\UFrameWork\DebuggerRuntime\Editor\BaseComponentInspector.cs" />
@@ -130,6 +154,15 @@
     <Compile Include="Assets\UFrameWork\PoolManager\Editor\ObjectsPoolEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\SWS\Changelog.txt" />
+    <None Include="Assets\SWS\Examples\Assets\Shaders\DiffuseReflectiveShader.shader" />
+    <None Include="Assets\SWS\Extensions\DOTween\DOTween.XML" />
+    <None Include="Assets\SWS\Extensions\DOTween\DOTween43.xml" />
+    <None Include="Assets\SWS\Extensions\DOTween\DOTween46.xml" />
+    <None Include="Assets\SWS\Extensions\DOTween\DOTween50.xml" />
+    <None Include="Assets\SWS\Extensions\DOTween\Editor\DOTweenEditor.XML" />
+    <None Include="Assets\SWS\Extensions\DOTween\readme.txt" />
+    <None Include="Assets\SWS\README.txt" />
     <None Include="Assets\UFrameWork\_DesignNew\extras\3D Text Shader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
