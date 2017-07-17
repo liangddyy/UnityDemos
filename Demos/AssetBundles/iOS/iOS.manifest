@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 3805098774
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: mycube.sd
+      Dependencies: {}
+    Info_1:
+      Name: mycube.hd
+      Dependencies: {}

@@ -76,20 +76,14 @@
     <Reference Include="System.Data">
       <HintPath>Assets\UFrameWork\Plugins\System.Data.dll</HintPath>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\SWS\Extensions\DOTween\DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween43">
-      <HintPath>Assets\SWS\Extensions\DOTween\DOTween43.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween46">
-      <HintPath>Assets\SWS\Extensions\DOTween\DOTween46.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween50">
-      <HintPath>Assets\SWS\Extensions\DOTween\DOTween50.dll</HintPath>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>Assets\UFrameWork\_Package\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AssetBundleManager\AssetBundleLoadOperation.cs" />
+    <Compile Include="Assets\AssetBundleManager\AssetBundleManager.cs" />
+    <Compile Include="Assets\AssetBundleManager\Utility.cs" />
     <Compile Include="Assets\Lib\LDFW\Math\BezierCurve.cs" />
     <Compile Include="Assets\Lib\LDFW\Math\BezierDemo.cs" />
     <Compile Include="Assets\Lib\LDFW\Path\LDFWPath.cs" />
@@ -109,22 +103,6 @@
     <Compile Include="Assets\Lib\LDFW\Tweener\LDFWTweenWorldRotation.cs" />
     <Compile Include="Assets\PathCreator\CurvePath.cs" />
     <Compile Include="Assets\PathCreator\CurvePathAnimator.cs" />
-    <Compile Include="Assets\SWS\Examples\Scripts\CameraInputDemo.cs" />
-    <Compile Include="Assets\SWS\Examples\Scripts\EventCollisionTrigger.cs" />
-    <Compile Include="Assets\SWS\Examples\Scripts\EventReceiver.cs" />
-    <Compile Include="Assets\SWS\Examples\Scripts\PathInputDemo.cs" />
-    <Compile Include="Assets\SWS\Examples\Scripts\RapidInputDemo.cs" />
-    <Compile Include="Assets\SWS\Examples\Scripts\RotationHelper.cs" />
-    <Compile Include="Assets\SWS\Examples\Scripts\RuntimeDemo.cs" />
-    <Compile Include="Assets\SWS\Examples\Scripts\ShowcaseGUI.cs" />
-    <Compile Include="Assets\SWS\Scripts\Helper\MoveAnimator.cs" />
-    <Compile Include="Assets\SWS\Scripts\Helper\PathIndicator.cs" />
-    <Compile Include="Assets\SWS\Scripts\Helper\PathRenderer.cs" />
-    <Compile Include="Assets\SWS\Scripts\Manager\BezierPathManager.cs" />
-    <Compile Include="Assets\SWS\Scripts\Manager\PathManager.cs" />
-    <Compile Include="Assets\SWS\Scripts\Manager\WaypointManager.cs" />
-    <Compile Include="Assets\SWS\Scripts\Movement\navMove.cs" />
-    <Compile Include="Assets\SWS\Scripts\Movement\splineMove.cs" />
     <Compile Include="Assets\UFrameWork\AnimState\AnimaMessageSend.cs" />
     <Compile Include="Assets\UFrameWork\Base\BaseFrameworkComponent.cs" />
     <Compile Include="Assets\UFrameWork\Base\GameComponentEntry.cs" />
@@ -335,6 +313,7 @@
     <Compile Include="Assets\UFrameWork\_UnityDesignPattern\Structural Patterns\Flyweight Pattern\Structure\FlyweightStructure.cs" />
     <Compile Include="Assets\UFrameWork\_UnityDesignPattern\Structural Patterns\_Proxy Pattern\Exmaple1\ProxyPatternExample1.cs" />
     <Compile Include="Assets\UFrameWork\_UnityDesignPattern\Structural Patterns\_Proxy Pattern\Structure\ProxyStructure.cs" />
+    <Compile Include="Assets\_AssetTest\LoadTest.cs" />
     <Compile Include="Assets\_Script\NavMeshDemo\MovePick.cs" />
     <Compile Include="Assets\_Script\Profiler\ProfilerSample.cs" />
     <Compile Include="Assets\_Script\Scriptable\ClothsDataConfig.cs" />
@@ -353,15 +332,6 @@
     <Compile Include="Assets\_arithmetic\Planimetry\Planimetry.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\SWS\Changelog.txt" />
-    <None Include="Assets\SWS\Examples\Assets\Shaders\DiffuseReflectiveShader.shader" />
-    <None Include="Assets\SWS\Extensions\DOTween\DOTween.XML" />
-    <None Include="Assets\SWS\Extensions\DOTween\DOTween43.xml" />
-    <None Include="Assets\SWS\Extensions\DOTween\DOTween46.xml" />
-    <None Include="Assets\SWS\Extensions\DOTween\DOTween50.xml" />
-    <None Include="Assets\SWS\Extensions\DOTween\Editor\DOTweenEditor.XML" />
-    <None Include="Assets\SWS\Extensions\DOTween\readme.txt" />
-    <None Include="Assets\SWS\README.txt" />
     <None Include="Assets\UFrameWork\_DesignNew\extras\3D Text Shader.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
