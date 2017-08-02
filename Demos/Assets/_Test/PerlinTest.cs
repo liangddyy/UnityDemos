@@ -22,7 +22,7 @@ public class PerlinTest : MonoBehaviour
     }
 
 //Updateiscalledonceperframe
-
+    
     void Update()
     {
         //利用PerlinNoise实现线性的过度作用

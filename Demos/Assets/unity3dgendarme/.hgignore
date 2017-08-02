@@ -1,0 +1,13 @@
+syntax: glob
+.DS_Store
+*.pyc.meta
+*.pyc
+*.sln
+*.userprefs
+*.csproj
+*.pidb
+Library
+Temp
+**.meta
+Build
+*.unitypackage
