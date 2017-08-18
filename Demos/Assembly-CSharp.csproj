@@ -75,6 +75,7 @@
      <Compile Include="Assets\UFrameWork\Base\GameComponentEntry.cs" />
      <Compile Include="Assets\UFrameWork\BezierCurve\Scripts\BezierCurve.cs" />
      <Compile Include="Assets\UFrameWork\BezierCurve\Scripts\BezierPoint.cs" />
+     <Compile Include="Assets\UFrameWork\Components\AnimationLock.cs" />
      <Compile Include="Assets\UFrameWork\ConsoleSimple\ConsoleSimple.cs" />
      <Compile Include="Assets\UFrameWork\Debugger\DebuggerManager.DebuggerWindowGroup.cs" />
      <Compile Include="Assets\UFrameWork\Debugger\DebuggerManager.cs" />
@@ -110,7 +111,15 @@
      <Compile Include="Assets\UFrameWork\DebuggerRuntime\DebuggerComponent.WebPlayerInformationWindow.cs" />
      <Compile Include="Assets\UFrameWork\DebuggerRuntime\DebuggerComponent.cs" />
      <Compile Include="Assets\UFrameWork\DebuggerRuntime\_Example\DebuggerTest.cs" />
+     <Compile Include="Assets\UFrameWork\Extension\ArrayExtension.cs" />
+     <Compile Include="Assets\UFrameWork\Extension\AudioClipExtension.cs" />
+     <Compile Include="Assets\UFrameWork\Extension\ComponentExtension.cs" />
+     <Compile Include="Assets\UFrameWork\Extension\EnumExtension.cs" />
      <Compile Include="Assets\UFrameWork\Extension\GameObjectExtention.cs" />
+     <Compile Include="Assets\UFrameWork\Extension\MonoBehaviourExtension.cs" />
+     <Compile Include="Assets\UFrameWork\Extension\ReflectionExtensions.cs" />
+     <Compile Include="Assets\UFrameWork\Extension\StringExtension.cs" />
+     <Compile Include="Assets\UFrameWork\Extension\TransformExtension.cs" />
      <Compile Include="Assets\UFrameWork\Lib\EditorCoroutine\Scripts\CoroutineWindowExample.cs" />
      <Compile Include="Assets\UFrameWork\Lib\EditorCoroutine\Scripts\EditorCoroutine.cs" />
      <Compile Include="Assets\UFrameWork\Lib\EditorCoroutine\Scripts\EditorCoroutineExtensions.cs" />
@@ -119,7 +128,6 @@
      <Compile Include="Assets\UFrameWork\PoolManager\ObjectsPool.cs" />
      <Compile Include="Assets\UFrameWork\PoolManager\Pool.cs" />
      <Compile Include="Assets\UFrameWork\Utils\BinaryUtility.cs" />
-     <Compile Include="Assets\UFrameWork\Utils\ComponentExtension.cs" />
      <Compile Include="Assets\UFrameWork\Utils\Converter.cs" />
      <Compile Include="Assets\UFrameWork\Utils\EventTriggerListener.cs" />
      <Compile Include="Assets\UFrameWork\Utils\FileUtility.cs" />
@@ -130,6 +138,7 @@
      <Compile Include="Assets\UFrameWork\Utils\ScriptingDefineSymbolUtil.cs" />
      <Compile Include="Assets\UFrameWork\Utils\UPlayerPrefs.cs" />
      <Compile Include="Assets\UFrameWork\Utils\Zip.IZipHelper.cs" />
+     <Compile Include="Assets\UFrameWork\Utils\ZipUtil.cs" />
      <Compile Include="Assets\UFrameWork\_Demos\ExtensionTransform.cs" />
      <Compile Include="Assets\UFrameWork\_Demos\RockingBarUGUI\Scripts\RoackingBar.cs" />
      <Compile Include="Assets\UFrameWork\_Demos\RockingBarUGUI\Scripts\RoackingControl2d.cs" />

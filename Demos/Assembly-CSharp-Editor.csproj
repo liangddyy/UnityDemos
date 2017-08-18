@@ -63,6 +63,7 @@
      <Compile Include="Assets\UFrameWork\Editor\ComponentsCopy\Editor\CopyAllComponent.cs" />
      <Compile Include="Assets\UFrameWork\Editor\ComponentsCopy\Editor\DeepCopyAllComponent.cs" />
      <Compile Include="Assets\UFrameWork\Editor\EditorTest\MyHierarchyMenu.cs" />
+     <Compile Include="Assets\UFrameWork\Editor\OtherTools\EditorCoroutine.cs" />
      <Compile Include="Assets\UFrameWork\Editor\OtherTools\OtherEditorTools.cs" />
      <Compile Include="Assets\UFrameWork\Editor\ResourcesFind\SearchForComponents.cs" />
      <Compile Include="Assets\UFrameWork\Editor\UtilityEditor.cs" />
