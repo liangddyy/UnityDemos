@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ivy-module version="2.0">
+  <info version="5.4.3" organisation="Unity" module="VSCodeModule" e:packageType="UnityExtension" e:unityVersion="5.4.3" xmlns:e="http://ant.apache.org/ivy/extra" />
+  <publications xmlns:e="http://ant.apache.org/ivy/extra">
+    <artifact name="Editor/VSCodeModule" type="dll" ext="dll" e:guid="80a3616ca19596e4da0f10f14d241e9f" />
+  </publications>
+</ivy-module>
