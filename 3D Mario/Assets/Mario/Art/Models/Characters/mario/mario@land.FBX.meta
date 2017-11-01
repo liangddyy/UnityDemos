@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 1fc720eeaf286474a94840ca68785422
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    4300000: Bip_Root
+    4300002: Bip_IK_Hand_Root
+    4300004: Bip_IK_Gun
+    4300006: Bip_IK_Hand_R
+    4300008: Bip_IK_Hand_L
+    4300010: Bip_IK_Foot_Root
+    4300012: Bip_IK_Foot_R
+    4300014: Bip_IK_Foot_L
+    4300016: Bip_LeftWeapon
+    4300018: Bip_RightWeapon
+    4300020: b_Root
+    4300022: b_IK_Hand_Root
+    4300024: b_IK_Gun
+    4300026: b_IK_Hand_R
+    4300028: b_IK_Hand_L
+    4300030: b_IK_Foot_Root
+    4300032: b_IK_Foot_L
+    4300034: b_IK_Foot_R
+    4300036: b_Hips
+    4300038: b_LeftLegUpper
+    4300040: b_LeftLeg
+    4300042: b_LeftAnkle
+    4300044: b_LeftToe
+    4300046: b_LeftLegUpperRoll
+    4300048: b_RightLegUpper
+    4300050: b_RightLeg
+    4300052: b_RightAnkle
+    4300054: b_RightToe
+    4300056: b_RightLegUpperRoll
+    4300058: b_Spine
+    4300060: b_Spine1
+    4300062: b_Spine2
+    4300064: b_LeftClav
+    4300066: b_LeftArm
+    4300068: b_LeftForeArm
+    4300070: b_LeftHand
+    4300072: b_LeftMiddle1
+    4300074: b_LeftMiddle2
+    4300076: b_LeftMilddle3
+    4300078: b_LeftIndex1
+    4300080: b_LeftIndex2
+    4300082: b_LeftIndex3
+    4300084: b_LeftWeapon
+    4300086: b_LeftRing1
+    4300088: b_LeftRing2
+    4300090: b_LeftRing3
+    4300092: b_LeftPinky1
+    4300094: b_LeftPinky2
+    4300096: b_LeftPinky3
+    4300098: b_LeftThumb1
+    4300100: b_LeftThumb2
+    4300102: b_LeftThumb3
+    4300104: b_LeftForeArmRoll
+    4300106: b_LeftArmRoll
+    4300108: b_LeftShoulderPad
+    4300110: b_Neck
+    4300112: b_Head
+    4300114: b_RightClav
+    4300116: b_RightArm
+    4300118: b_RightForeArm
+    4300120: b_RightHand
+    4300122: b_RightMiddle1
+    4300124: b_RightMiddle2
+    4300126: b_RightMiddle3
+    4300128: b_RightIndex1
+    4300130: b_RightIndex2
+    4300132: b_RightIndex3
+    4300134: b_RightWeapon
+    4300136: b_RightThumb1
+    4300138: b_RightThumb2
+    4300140: b_RightThumb3
+    4300142: b_RightRing1
+    4300144: b_RightRing2
+    4300146: b_RightRing3
+    4300148: b_RightPinky1
+    4300150: b_RightPinky2
+    4300152: b_RightPinky3
+    4300154: b_RightForeArmRoll
+    4300156: b_RightArmRoll
+    4300158: b_RightShoulderPad
+    4300160: mario
+    4300162: mario_b_arms
+    4300164: mario_b_head
+    4300166: mario_b_torso
+    4300168: mario_b_legs
+    4300170: mario_b_boots
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 1
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{FDDFE151-B646-261F-135C-1D85312BC552}") = "3D Mario Unity Project - Starter", "Assembly-CSharp-firstpass.csproj", "{AE2C9FDE-2DC5-725C-D5BC-AB3169A6C593}"
+EndProject
+Project("{FDDFE151-B646-261F-135C-1D85312BC552}") = "3D Mario Unity Project - Starter", "Assembly-CSharp-Editor-firstpass.csproj", "{304FD4CD-BA6B-5447-F312-8052EFC68048}"
+EndProject
+Project("{FDDFE151-B646-261F-135C-1D85312BC552}") = "3D Mario Unity Project - Starter", "Assembly-UnityScript-firstpass.unityproj", "{860F7C61-D01E-0306-A629-D696D04FDC84}"
+EndProject
+Project("{FDDFE151-B646-261F-135C-1D85312BC552}") = "3D Mario Unity Project - Starter", "Assembly-UnityScript.unityproj", "{4892D2E3-3937-2233-691A-94149999CBCA}"
+EndProject
+Project("{FDDFE151-B646-261F-135C-1D85312BC552}") = "3D Mario Unity Project - Starter", "Assembly-UnityScript-Editor-firstpass.unityproj", "{92E5E7CF-FF99-0602-6D40-7BECB998B9C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE2C9FDE-2DC5-725C-D5BC-AB3169A6C593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE2C9FDE-2DC5-725C-D5BC-AB3169A6C593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE2C9FDE-2DC5-725C-D5BC-AB3169A6C593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE2C9FDE-2DC5-725C-D5BC-AB3169A6C593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304FD4CD-BA6B-5447-F312-8052EFC68048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304FD4CD-BA6B-5447-F312-8052EFC68048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304FD4CD-BA6B-5447-F312-8052EFC68048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304FD4CD-BA6B-5447-F312-8052EFC68048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860F7C61-D01E-0306-A629-D696D04FDC84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860F7C61-D01E-0306-A629-D696D04FDC84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860F7C61-D01E-0306-A629-D696D04FDC84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860F7C61-D01E-0306-A629-D696D04FDC84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4892D2E3-3937-2233-691A-94149999CBCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4892D2E3-3937-2233-691A-94149999CBCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4892D2E3-3937-2233-691A-94149999CBCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4892D2E3-3937-2233-691A-94149999CBCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E5E7CF-FF99-0602-6D40-7BECB998B9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E5E7CF-FF99-0602-6D40-7BECB998B9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E5E7CF-FF99-0602-6D40-7BECB998B9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E5E7CF-FF99-0602-6D40-7BECB998B9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

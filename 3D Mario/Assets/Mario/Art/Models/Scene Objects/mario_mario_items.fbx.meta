@@ -1,0 +1,103 @@
+fileFormatVersion: 2
+guid: 3c23f0a901be2f74b9984085a21f3bc8
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    4300000: mario
+    4300002: fence_post_1
+    4300004: fence_piece_1
+    4300006: fence_piece_2
+    4300008: fence_post_2
+    4300010: wall_wood_02
+    4300012: log_big_1
+    4300014: switch_jump_top
+    4300016: switch_jump_base
+    4300018: coin
+    4300020: pad
+    4300022: sign
+    4300024: rock_1
+    4300026: crate
+    4300028: log_tall_1
+    4300030: wall_wood_1
+    4300032: grass_1
+    4300034: grass_2
+    4300036: rock_2
+    4300038: sign_arrow
+    4300040: tree_big_1
+    4300042: tree_big_2
+    4300044: tree_big_3
+    4300046: tree_small_1
+    4300048: tree_small_1a
+    4300050: rock_3
+    4300052: mound_1
+    4300054: defense_set_1
+    4300056: cannon_2
+    4300058: cannon_1
+    4300060: ball_creature_spawn_point
+    4300062: tube
+    4300064: grass_05
+    4300066: grass_06
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
